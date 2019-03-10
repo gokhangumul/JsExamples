@@ -45,7 +45,7 @@ function Seo(url) {
 		  while (url.indexOf("--") > -1 ){
 			url=url.replace("--","-");
 		  }
-		url=url.replace(/[^a-z0-9\-]/g,'')   
+		url=url.replace(/[^a-z0-9\-]/g,'');  
 		alert(url);
 	}
 }
